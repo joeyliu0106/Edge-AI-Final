@@ -1,0 +1,8 @@
+# 設定圖檔路徑
+path: ../datasets/thermal_detection  # 資料根目錄
+train: C:/Users/Joe/Desktop/yolov5/datasets/thermal detection/images/training_data    # 訓練用資料集（相對於 path）
+val: C:/Users/Joe/Desktop/yolov5/datasets/thermal detection/images/training_data    # 驗證用資料集（相對於 path）
+
+# 物件類別設定
+names:
+  0: head

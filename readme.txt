@@ -1,0 +1,2 @@
+training command for terminal:	python train.py --img 640 --batch 16 --epochs 100 --data thermal_detection.yaml --weights yolov5s.pt --cfg models/thermal.yaml --device 0
+testing command for terminal:		python detect.py --weight best.pt --source ../yolov5/data/thermal_images/資料夾名稱 --iou-thres 0.0005 --conf-thres 0.0005 --max-det 1 --save-txt --device 0
